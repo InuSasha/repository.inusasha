@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.inusasha" name="InuSasha's Kodi Repository Addon" version="0.2.1" provider-name="InuSasha">
+
+	<extension point="xbmc.addon.repository" name="InuSasha's Kodi Repository">
+		<info compressed="false">https://dl.inusasha.de/libreelec/addons/7.0/addons.xml</info>
+		<checksum>https://dl.inusasha.de/libreelec/addons/7.0/addons.xml.md5</checksum>
+		<datadir zip="true">https://dl.inusasha.de/libreelec/addons/7.0</datadir>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary>InuSasha's Kodi Repository</summary>
+		<description>Download and install addons for InuSasha edition of LibreElec 7.0.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
